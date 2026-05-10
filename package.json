@@ -1,0 +1,27 @@
+{
+  "name": "cs-currency-converter",
+  "version": "1.0.0",
+  "description": "An npm package to convert currency",
+  "keywords": [
+    "npm"
+  ],
+  "homepage": "https://github.com/Rahul-Sharma03/currency-converter#readme",
+  "bugs": {
+    "url": "https://github.com/Rahul-Sharma03/currency-converter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rahul-Sharma03/currency-converter.git"
+  },
+  "license": "Apache-2.0",
+  "author": "Rahul Sharma",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "dependencies": {
+    "@everapi/freecurrencyapi-js": "^1.0.1",
+    "dotenv": "^17.4.2"
+  }
+}
